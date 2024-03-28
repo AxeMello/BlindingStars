@@ -1,9 +1,13 @@
-h1{
+#head{
     text-align: center; 
     color: red;
-    background-color: grey;
+    background-color: black;
     border: 0;
     padding: 1%;
+}
+
+#head > h1 {
+    font-size: 500%;
 }
 
 body {
@@ -14,6 +18,12 @@ body {
       
 }
 
-* {
-
+.perm {
+    text-align: center;
+    font-weight: bold;
+}
+.perm > div {
+    border: 10px white;
+    float: left;
+    padding-left: 10px;
 }
