@@ -1,0 +1,100 @@
+h1{
+    text-align: center; 
+    color: red;
+    background-color: grey;
+    font-size: 4em;
+    border: 0;
+}
+.big {
+    size: 100px;
+}
+li.big {
+    size: 75px;
+}
+section > article { /*direct child*/
+    color: blue;
+}
+ul li { /*decentent*/
+    color: pink;
+    list-style: none;
+}
+ul li:nth-child(2){
+    size: 125%;
+}
+li:nth-child(even){
+    color: grey;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: lime;
+    border: 1px black;
+    display: block;
+}
+a:hover, a:active{
+    color: greenyellow;
+    cursor: pointer;
+}
+.wiki{
+    width: 400px;
+    height: 450px;
+    overflow: auto;
+    float: right;
+    clear: both;
+}
+div#cunt{
+    position: relative;
+}
+.p1{
+    background-color: red;
+    position: relative;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+}   
+.p2{
+    background-color: red;
+    position: absolute;
+    left: 660px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+}
+.p3{
+    background-color: red;
+    position: absolute;
+    left: 720px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+}
+.p4 {
+    background-color: red;
+    position: relative;
+    left: 660px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    font-size: 24px;
+    color: white;
+}
+footer {
+    width: 170px;
+    height: 30px;
+    border: 10px;
+    color: limegreen;
+    margin: 10px;
+    text-align: center;
+}
+html {
+    background: url(https://i.ytimg.com/vi/dhT9LbCBZ5M/maxresdefault.jpg) black;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+* {
+    border: 0;
+    box-sizing: border-box;
+}

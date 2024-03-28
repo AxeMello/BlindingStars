@@ -1,0 +1,19 @@
+h1{
+    text-align: center; 
+    color: red;
+    background-color: grey;
+    border: 0;
+    padding: 1%;
+}
+
+body {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+* {
+
+}
