@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 // GitHub repository details
 const repoOwner = 'axe_mello';
 const repoName = 'BlindingStars';
