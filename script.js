@@ -1,9 +1,9 @@
 import fetch from "node-fetch";
 
 // GitHub repository details
-const repoOwner = 'axe_mello';
+const repoOwner = 'AxeMello';
 const repoName = 'BlindingStars';
-const filePath = 'BlindingStars';
+const filePath = 'script.js';
 
 // Construct the URL to access the raw content
 const rawUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/${filePath}`;
